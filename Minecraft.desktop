@@ -1,7 +1,8 @@
+#!/bin/bash
 [Desktop Entry]
 Encoding=UTF-8
 Version=3.1
 Type=Application
 Terminal=False
-Exec=java -jar /home/zcurq/Minecraft.jar
+Exec=[ "${UID}" != 0 ] && exec java -jar $HOME/Minecraft.jar
 Name=Minecraft
