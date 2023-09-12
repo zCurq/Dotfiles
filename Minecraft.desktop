@@ -1,0 +1,7 @@
+[Desktop Entry]
+Encoding=UTF-8
+Version=3.1
+Type=Application
+Terminal=False
+Exec=java -jar /home/zcurq/Minecraft.jar
+Name=Minecraft
